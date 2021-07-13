@@ -3,40 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Clos Marsault</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li id="logo">
-                    <a href="#">Clos Marsault</a>
-                </li>
-            </ul>
-            <ul>
-                <li id="logo">
-                    <a href="#langue">Langue</a>
-                </li>
-            </ul>
-            <ul>
-                <li id="logo">
-                    <a href="#reserver">Réserver</a>
-                </li>
-            </ul>
-            <ul>
-                <li id="logo">
-                    <a href="#contact">Nous contacter</a>
-                </li>
+                <li id="logo"> <a href="#">Clos Marsault</a> </li>
+                <li> <a href="#langue">Langue</a> </li>
+                <li> <a href="#reserver">Réserver</a> </li>
+                <li> <a href="#contact">Nous contacter</a> </li>
             </ul>
         </nav>
-        <div>
-            <h1>Clos MArsault</h1>
+        <div id="imagePrincipale">
+            <h1>Clos Marsault</h1>
             <div id="premierTrait"></div>
             <h3>Chambres d'hotels</h3>
         </div>
     </header>
     <section id="presentation">
-        <div>
+        <div id ="textIntro">
             <h2>Un lieu unique, pour un séjour unique</h2>
             <p>
                 Le lorem ipsum est, en imprimerie,
@@ -77,22 +64,14 @@
             <li id="vignoble">
                 <p>Le vignoble Bordelais</p>
             </li>
-
         </ul>
     </section>
     <footer>
-        <div>
-            <h2>Contactez-nous</h2>
+            <h2 id="contact">Contactez-nous</h2>
             <form method="post" action="">
-                <div>
-                    <input type="text" name="nom" placeholder="Nom">
-                </div>
-                <div>
-                    <input type="email" name="email" placeholder="Email">
-                </div>
-                <div>
-                    <textarea placeholder="Votre message"></textarea>
-                </div>
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="email" name="email" placeholder="Email">
+                <textarea placeholder="Votre message"></textarea>
                 <button type="submit">Envoyer</button>
             </form>
             <div id="deuxiemeTrait"></div>
@@ -106,7 +85,6 @@
                     <a href="http//www.instagram.fr"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
-        </div>
     </footer>
 </body>
 </html>
